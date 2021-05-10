@@ -1,0 +1,12 @@
+<textarea id="content">jquery 연습</textarea>
+    <button id="btn">클릭</button>
+    console.log($("#content").val());
+
+        // function hello(){
+        //     console.log("hello world!");
+        // }
+
+        // $("#btn").click(hello)
+        $("#btn").click(function(){
+            console.log("hello world!");
+        })
